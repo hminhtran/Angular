@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Products 1",
+      "category": "Shirts",
+      "size": "XL",
+      "photo": "assets/img/t_shirt.png",
+      "price": "410"
+    }
+    ,
+    {
+        "id": 2,
+        "name": "Products 2",
+        "category": "Hoodie",
+        "size": "XL",
+        "photo": "assets/img/t_shirt.png",
+        "price": "420"
+    },
+    {
+        "id": 3,
+        "name": "Products 3",
+        "category": "Sneaker",
+        "size": "XL",
+        "photo": "assets/img/t_shirt.png",
+        "price": "430"
+    },
+    {
+        "id": 4,
+        "name": "Products 4",
+        "category": "Consumable",
+        "size": "XL",
+        "photo": "assets/img/t_shirt.png",
+        "price": "440"
+    }
+  ]
+}

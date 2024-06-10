@@ -1,0 +1,21 @@
+<app-banner></app-banner>
+<div class="row justify-content-md-center ">
+<div class="container product">
+  <h1>New Arrivals</h1>
+  <div class="row justify-content-md-center ">
+  <app-category class="col-lg-2 category"
+  *ngFor="let Product of ProductList"
+  [Product] = "Product"> 
+</app-category>
+<div class="container product">
+   <h1>Best Seller</h1>
+   <div class="row justify-content-md-center ">
+    <app-best-seller class="col-lg-2 category"
+    *ngFor="let Product of ProductBest"
+    [Product] = "Product">
+  </app-best-seller>  
+</div>
+</div>
+</div>
+
+

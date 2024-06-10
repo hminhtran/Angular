@@ -1,0 +1,15 @@
+        <div class="col col-lg-2 product ">
+            <div class="img_product">
+              <img [src]="Product.image" alt="">
+            </div>
+            <div class="name_product">
+              <p>{{ Product.title | transform :35}}</p>
+              <p>{{Product.price}}$</p>
+            </div>
+            <div class="more_button row ">
+            <a class="col detail" href="1">View Detail</a>
+            <a class="col cart " href="2">Add to Cart</a>
+
+          </div>
+          
+        </div>
