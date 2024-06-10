@@ -10,6 +10,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { CategoryComponent } from './components/category/category.component';
 import { TransformPipe } from './transform.pipe';
 import { BestSellerComponent } from './components/best-seller/best-seller.component';
+import { FooterComponent } from './layouts/footer/footer.component';
 
 
 
@@ -22,7 +23,8 @@ import { BestSellerComponent } from './components/best-seller/best-seller.compon
     BannerComponent,
     CategoryComponent,
     TransformPipe,
-    BestSellerComponent
+    BestSellerComponent,
+    FooterComponent
     
   
   ],
